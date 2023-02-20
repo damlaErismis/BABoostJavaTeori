@@ -1,6 +1,7 @@
 package com.damlaerismis;
 
-//Constructor : Nesnelerin ilk oluşumu sırasında çağırılan metoddur. Constructorlar public olur.
+
+//Constructor (yapıcı metod) : Nesnelerin ilk oluşumu sırasında çağırılan metoddur. Constructorlar public olur.
 
 //Yazılımcı sınıf içinde hiçbir constructor tanımlamazsa Java o sınıf için otomatik boş
 //bir constructor oluşturur.
@@ -10,9 +11,8 @@ package com.damlaerismis;
 //Java otomatik constructos oluşturmaz. Bu durumda boş constructor'a ihtiyaç duyarsanız
 //sizin manuel olarak boş constructor'ı kendiniz oluşturmanız gerekir.
 
-
 public class Motor {
-	
+
 	private int motorHacmi;
 	private String saseNo = "";
 	private int yakitTuketimi;
@@ -75,5 +75,5 @@ public class Motor {
 		this.setYakitTuketimi(yakitTuketimi);
 	}
 
-
+	
 }

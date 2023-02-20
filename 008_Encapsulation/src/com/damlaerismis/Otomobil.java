@@ -2,7 +2,7 @@ package com.damlaerismis;
 
 public class Otomobil {
 
-public static String ARAC_TIPI = "Kara Aracı";
+public static final String ARAC_TIPI = "Kara Aracı"; //final diyerek sabitliyoruz özelliği
 	
 	// Üye Özellikler
 	// Otomobil sınıfından türetilecek her bir nesnenin sahip olabileceği nesneye ait özellikler

@@ -43,6 +43,11 @@ public static void main(String[] args) {
 		//
 		System.out.println();
 		otomobil3.getMotor().setBAziMotorBilgileri(3000, 9);
+		
+		
+		//son örnek:
+		System.out.println();
+		Otomobil otomobil5 = new Otomobil("Skoda", "Superb", 2021, 57500, 1500, "SS11122", 9);
 	}
 
 

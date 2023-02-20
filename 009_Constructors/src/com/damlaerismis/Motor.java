@@ -1,7 +1,7 @@
 package com.damlaerismis;
 
 
-//Constructor : Nesnelerin ilk oluşumu sırasında çağırılan metoddur. Constructorlar public olur.
+//Constructor (yapıcı metod) : Nesnelerin ilk oluşumu sırasında çağırılan metoddur. Constructorlar public olur.
 
 //Yazılımcı sınıf içinde hiçbir constructor tanımlamazsa Java o sınıf için otomatik boş
 //bir constructor oluşturur.

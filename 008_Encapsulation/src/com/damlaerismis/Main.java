@@ -1,7 +1,10 @@
 package com.damlaerismis;
 
 public class Main {
-
+	//encapsulation nedir derlerse:
+    //üye değişkenleri private yaparım,
+	//metodlarla erişirim de :)
+	
 public static void main(String[] args) {
 		
 		Motor motor = new Motor();
@@ -60,10 +63,16 @@ public static void main(String[] args) {
 		otomobil2.getMotor().setMotorHacmi(1400);
 		System.out.println("oto2 mot hacmi: " + otomobil2.getMotor().getMotorHacmi());
 		
-		
-		
-		
-		
+		//
+		System.out.println();
+		Otomobil otomobil3 = new Otomobil();
+		otomobil3.setMarka("Fiat");
+		otomobil3.setModel("Aegea");
+		otomobil3.setMotor(new Motor());
+		otomobil3.getMotor().setYakitTuketimi(8);
+		System.out.println(otomobil3.getMotor().getYakitTuketimi());
+		System.out.println(otomobil3); //otomobil3.toString() de yazabilirdik ama syso metodu, içine yazılan nesneye ait metodları
+										//göstereceğinden toString'i kendi çağırır.
 
 	}
 

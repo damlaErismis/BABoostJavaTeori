@@ -23,9 +23,20 @@ public static String ARAC_TIPI = "Kara Aracı";
 		this.setYil(yil);
 		this.setMotor(motor);
 	}
-
+	//motoru constructor'ın içine yazdık:
+	//ama daha sonra büyük projelerde bu yöntem tercih edilmez, unit test zorlaşır.
+	public Otomobil(String marka, String model, int yil, int aracinKm, int motorHacmi, String saseNo, int yakitTüketimi) {
+		this.setAracinKm(aracinKm);
+		this.setMarka(marka);
+		this.setModel(model);
+		this.setYil(yil);
+		this.setMotor(motor);
+		this.motor = new Motor(motorHacmi, saseNo, yakitTüketimi);
+		//this.setMotor(new Motor(motorHacmi, saseNo, yakitTüketimi));  üstteki yerine bu da olurdu.
+	}
 	
 	public Otomobil(String marka, String model) {
+		super();
 		this.marka = marka;
 		this.model = model;
 	}
@@ -43,6 +54,8 @@ public static String ARAC_TIPI = "Kara Aracı";
 		this.yil = yil;
 		this.setMotor(motor);;
 	}
+
+
 
 
 	public void araciSur(int km) {
