@@ -1,5 +1,11 @@
 package com.damlaerismis;
 
+
+// sınavlarda oopla ilgili konsept, sözel sorular gelebilir.
+// inheritance nedir?
+// encapsulation nedir?
+// polymorphism nedir?
+// constructor nedir? gibi...
 public class Main {
 	
 	// INHERITANCE
